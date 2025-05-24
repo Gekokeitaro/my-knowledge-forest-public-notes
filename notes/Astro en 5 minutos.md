@@ -1,18 +1,14 @@
 ---
 id: 1cd6dd
-created: 2025-05-19T12:28
-modified: 2025-05-21T18:16
-tags: 
-  - type/sprout
-  - queued/note
-alias:
-  - Astro En 5 Minutos
-  - astro en 5 minutos
+title: "Astro en 5 minutos"
+imgs: []
+created: 2025-05-19T12:28:00.000-04:00
+modified: 2025-05-21T18:16:00.000-04:00
+tags: ["type/sprout", "queued/note"]
+alias: ["Astro En 5 Minutos", "astro en 5 minutos"]
 ---
 
-# Astro en 5 minutos
-
-: [^ref1] [^ref2] [^ref3] [^ref4] [^ref5] [^ref6]
+🔗: [^ref1] [^ref2] [^ref3] [^ref4] [^ref5] [^ref6]
 
 > [!NOTE] ¿Que es Astro?
 >
@@ -24,7 +20,7 @@ alias:
 
 ## Características de Astro
 
-> [!NOTE] Astro tiene todo lo necesario para el desarrollo web moderno
+> [!NOTE]+ Astro tiene todo lo necesario para el desarrollo web moderno
 >
 > - Colecciones de contenido.
 > - Por defecto, retorna 0 javascript al cliente.
