@@ -3,7 +3,7 @@ id: 1cd6dd
 title: "Astro en 5 minutos"
 imgs: []
 created: 2025-05-19T12:28:00.000-04:00
-modified: 2025-05-21T18:16:00.000-04:00
+modified: 2025-05-24T19:03
 tags: ["type/sprout", "queued/note"]
 alias: ["Astro En 5 Minutos", "astro en 5 minutos"]
 ---
@@ -124,7 +124,7 @@ alias: ["Astro En 5 Minutos", "astro en 5 minutos"]
 
 > [!IMPORTANT] Para poder utilizar una colección, primero tenemos que definirla.
 >
-> Creamos dentro del directorio de la colección un fichero `config.ts`:
+> Creamos `content.config.ts` en la raíz del proyecto y dentro definimos la colección:
 >
 > ```typescript
 > import { defineCollection, z } from "astro:content";
@@ -196,7 +196,7 @@ alias: ["Astro En 5 Minutos", "astro en 5 minutos"]
 >   
 >   // Obtenemos el slug y los datos de la colección.
 >   return pages.map((page) => ({
->     params: { slug: page.slug },
+>     params: { slug: page.slug }, // [slug].astro
 >     props: { page }
 >   })
 > }
@@ -204,6 +204,7 @@ alias: ["Astro En 5 Minutos", "astro en 5 minutos"]
 > const { page } = Astro.props
 > const { data } = page
 > const { \<page_data1\>, \<page_data2\>... } = data
+> const { Content } = await page.render(); // Contenido del cuerpo de la página.
 > ```
 >
 > - SSR no puede usar `getStaticPaths`, pero puede obtener información de otras maneras:
