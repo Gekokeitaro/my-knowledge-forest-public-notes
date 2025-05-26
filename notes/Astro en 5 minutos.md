@@ -2,8 +2,8 @@
 id: 1cd6dd
 title: "Astro en 5 minutos"
 imgs: []
-created: 2025-05-19T12:28:00.000-04:00
-modified: 2025-05-24T19:03
+created: 2025-05-19T12:28:00Z
+modified: 2025-05-26T10:05:10Z
 tags: ["type/sprout", "queued/note"]
 alias: ["Astro En 5 Minutos", "astro en 5 minutos"]
 ---

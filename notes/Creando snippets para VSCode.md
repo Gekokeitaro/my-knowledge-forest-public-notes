@@ -1,8 +1,8 @@
 ---
 id: fc4b02
 title: "Creando snippets para VSCode"
-created: 2025-03-15T23:51:00.000-04:00
-modified: 2025-03-16T21:25:00.000-04:00
+created: 2025-03-15T23:51:00Z
+modified: 2025-05-26T10:06:21Z
 imgs: ["src/content/assets/Creando snippets para VSCode.svg"]
 tags: ["type/sprout", "queued/note"]
 alias: ["Creando snippets para VSCode", "creando snippets para vscode"]
