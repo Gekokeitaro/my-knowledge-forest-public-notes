@@ -1,11 +1,11 @@
 ---
 id: 1cd6dd
-title: "Astro en 5 minutos"
+title: 'Astro en 5 minutos'
 imgs: []
 created: 2025-05-19T12:28:00Z
 modified: 2025-05-26T10:05:10Z
-tags: ["type/sprout", "queued/note"]
-alias: ["Astro En 5 Minutos", "astro en 5 minutos"]
+tags: ['type/sprout', 'queued/note']
+alias: ['Astro En 5 Minutos', 'astro en 5 minutos']
 ---
 
 🔗: [^ref1] [^ref2] [^ref3] [^ref4] [^ref5] [^ref6]
@@ -50,7 +50,7 @@ alias: ["Astro En 5 Minutos", "astro en 5 minutos"]
 > [!IMPORTANT] Si quisieramos instalar paquete adicionales:
 >
 > ```npm
-> npm astro add <package> # p.ej. tailwind 
+> npm astro add <package> # p.ej. tailwind
 > ```
 
 ### Estructura inicial
@@ -129,15 +129,15 @@ alias: ["Astro En 5 Minutos", "astro en 5 minutos"]
 > ```typescript
 > import { defineCollection, z } from "astro:content";
 > // La z es de Zod, una librería de validación de datos.
-> 
+>
 > const <collectionName> = defineCollection({
 >   schema: z.object({
 >     <frontmatterProp>: <zodType>,
 >   })
 > })
-> 
+>
 > export const collections = { <collectionName> }
->   ```
+> ```
 
 #### Obtener entradas de contenido
 
@@ -188,19 +188,19 @@ alias: ["Astro En 5 Minutos", "astro en 5 minutos"]
 >     },
 >   ]
 > }
->   
+>
 > //--- Usando getCollection() ---//
->   
+>
 > export async function getStaticPaths() {
 >   pages = await getCollection("\<collectionName\>");
->   
+>
 >   // Obtenemos el slug y los datos de la colección.
 >   return pages.map((page) => ({
 >     params: { slug: page.slug }, // [slug].astro
 >     props: { page }
 >   })
 > }
-> 
+>
 > const { page } = Astro.props
 > const { data } = page
 > const { \<page_data1\>, \<page_data2\>... } = data
@@ -216,20 +216,25 @@ alias: ["Astro En 5 Minutos", "astro en 5 minutos"]
 >   { slug: <slug_1>, title: <title_1>, text: <text_1> },
 >   { slug: <slug_1>, title: <title_1>, text: <text_1> },
 > ];
-> 
+>
 > const { slug } = Astro.params;
-> 
+>
 > // Aquí obtenemos el contenido de la página a partir del slug.
 > const page = page.find((page) => page.slug === slug);
-> 
+>
 > // Si no existe la página, redirigimos a una página 404.
 > if (!page) return Astro.redirect("/404");
 > const { title, text } = page;
->   ```
+> ```
 
 [^ref1]: [Curso ASTRO 5 - Midudev](https://www.youtube.com/watch?v=WHqZAXHZN_w)
+
 [^ref2]: [Colecciones de contenido - Astro docs](https://docs.astro.build/es/guides/content-collections/)
+
 [^ref3]: [Rutas estáticas - Astro docs](https://docs.astro.build/es/guides/routing/)
+
 [^ref4]: [Páginas - Astro docs](https://docs.astro.build/es/basics/astro-pages/)
+
 [^ref5]: [Componentes - Astro docs](https://docs.astro.build/es/basics/astro-components/)
+
 [^ref6]: [Plantillas - Astro docs](https://docs.astro.build/es/basics/layouts/)
