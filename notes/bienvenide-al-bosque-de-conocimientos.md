@@ -3,7 +3,7 @@ id: '000000'
 title: 'Bienvenide al bosque de conocimientos'
 imgs: []
 created: 2025-05-19T12:00:00Z
-modified: 2025-06-29T10:48:55Z
+modified: 2025-06-29T11:01:43Z
 tags: ['type/sprout', 'queued/note']
 alias: ['Bienvenide al bosque de conocimientos', 'bienvenide al bosque de conocimientos']
 ---
@@ -14,7 +14,7 @@ alias: ['Bienvenide al bosque de conocimientos', 'bienvenide al bosque de conoci
 
 > [!NOTE] **Este sitio está hecho para perderse.**
 
-No hay orden y ni organización accesibles de forma directa. Puedes buscar notas por su nombre (próximamente...), etiquetas o dar con ellas a través de otras notas (y a veces mapas de contenido).   
+No hay orden y ni organización accesibles de forma directa. Puedes buscar notas por su nombre (próximamente...), etiquetas o dar con ellas a través de otras notas (y a veces mapas de contenido).
 
 > [!WARNING] Esto es un espacio **personal** y en **construcción permanente**.
 
