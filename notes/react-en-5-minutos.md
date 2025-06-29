@@ -1,7 +1,8 @@
 ---
 id: da960a
 title: "React en 5 minutos"
-created: 2025-06-16T16:23
+imgs: []
+created: 2025-06-16T16:23:00Z
 modified: 2025-06-24T08:34:43Z
 tags: 
   - type/sprout
@@ -85,7 +86,7 @@ npm install react react-dom
 
 Después lo importamos en el fichero JavaScript principal:
 
-```JavaScript
+```js
 import { createRoot } from 'react-dom/client';
 // Borra el contenido HTML existente
 document.body.innerHTML = '<div id="app"></div>';
