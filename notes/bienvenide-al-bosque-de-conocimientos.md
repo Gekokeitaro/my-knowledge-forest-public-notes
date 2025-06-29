@@ -18,4 +18,4 @@ No hay orden y ni organización accesibles de forma directa. Puedes buscar notas
 
 > [!WARNING] Esto es un espacio **personal** y en **construcción permanente**.
 
-Si buscas conocerme a nivel profesional, te recomiendo visitar mi Linkedin o mi portfolio (próximamente...).
+Si buscas conocerme a nivel profesional, te recomiendo visitar mi [LinkedIn](www.linkedin.com/in/pablobugarincamara) o mi portfolio (próximamente...).
