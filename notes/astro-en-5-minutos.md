@@ -10,6 +10,8 @@ alias: ['Astro En 5 Minutos', 'astro en 5 minutos']
 
 🔗: [^ref1] [^ref2] [^ref3] [^ref4] [^ref5] [^ref6]
 
+## Introducción
+
 > [!NOTE] ¿Que es Astro?
 >
 > Es un **framework** para desarrollar páginas web **estáticas orientadas a contenido**
