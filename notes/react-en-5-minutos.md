@@ -1,15 +1,11 @@
 ---
 id: da960a
-title: "React en 5 minutos"
+title: 'React en 5 minutos'
 imgs: []
 created: 2025-06-16T16:23:00Z
 modified: 2025-06-24T08:34:43Z
-tags: 
-  - type/sprout
-  - queued/note
-alias:
-  - "React en 5 minutos"
-  - "react en 5 minutos"
+tags: ['type/sprout', 'queued/note']
+alias: ['React en 5 minutos', 'react en 5 minutos']
 ---
 
 : [^ref1] [^ref2] [^ref3] [^ref4] [^ref5] [^ref6] [^ref7] [^ref8] [^ref9] [^ref10]
@@ -111,8 +107,8 @@ interface TodoListProps {
 
 /*
 * Componente que muestra una lista de tareas y permite agregar nuevas.
-* @param taskList 
-* @param onAddTask 
+* @param taskList
+* @param onAddTask
 */
 export default function TodoList({userName, taskList, onAddTask} : TodoListProps) {
 
@@ -125,7 +121,7 @@ export default function TodoList({userName, taskList, onAddTask} : TodoListProps
      // Llamada a la función onAddTask del padre.
      onAddTask('Nueva tarea');
    };
-   
+
    return (
      <>
        <ul>
@@ -147,7 +143,7 @@ export default function App() {
    const insertTask = (task: string) => {
       // Lógica para insertar nuevas tareas en base de datos
    };
-  
+
    return <div>
    <h1>Hola, Usuario!</h1>
    <p> Tareas: </p>
@@ -157,12 +153,21 @@ export default function App() {
 ```
 
 [^ref1]: <https://medium.com/@ojebiyifulness/5-main-features-of-react-js-that-developers-must-know-759e222d3699>
+
 [^ref2]: <https://www.elightwalk.com/blog/react-js-key-features-benefits-and-more>
+
 [^ref3]: <https://es.react.dev/learn/writing-markup-with-jsx>
+
 [^ref4]: <https://es.react.dev/learn/writing-markup-with-jsx>
+
 [^ref5]: <https://www.freecodecamp.org/news/full-guide-to-react-hooks/#heading-a-bit-of-history-about-react-and-what-hooks-are-for>
+
 [^ref6]: <https://medium.com/@jhakeshav14275/essential-react-concepts-you-must-know-for-developers-interviews-995bf7e690db>
+
 [^ref7]: <https://medium.com/@rohitdhiman937/react-hydration-explained-5c23349a7c8b>
+
 [^ref8]: <https://es.react.dev/learn/keeping-components-pure>
+
 [^ref9]: <https://www.freecodecamp.org/news/event-propagation-event-bubbling-event-catching-beginners-guide/>
-[^ref10]:<https://reactrouter.com/start/modes>
+
+[^ref10]: <https://reactrouter.com/start/modes>
